@@ -1,4 +1,4 @@
-package com.andygomez.unic_test.web.model;
+package com.andygomez.unic_test.flow.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

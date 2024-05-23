@@ -1,10 +1,10 @@
-package com.andygomez.unic_test.application;
+package com.andygomez.unic_test.flow.application;
 
+import com.andygomez.unic_test.flow.model.User;
+import com.andygomez.unic_test.flow.model.repository.UserRepository;
+import com.andygomez.unic_test.flow.web.model.UserInput;
+import com.andygomez.unic_test.flow.web.model.UserResponse;
 import com.andygomez.unic_test.utils.exceptions.ValidationException;
-import com.andygomez.unic_test.model.User;
-import com.andygomez.unic_test.model.repository.UserRepository;
-import com.andygomez.unic_test.web.model.UserInput;
-import com.andygomez.unic_test.web.model.UserResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

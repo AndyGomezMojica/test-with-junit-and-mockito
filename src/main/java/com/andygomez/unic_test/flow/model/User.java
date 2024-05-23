@@ -1,7 +1,7 @@
-package com.andygomez.unic_test.model;
+package com.andygomez.unic_test.flow.model;
 
-import com.andygomez.unic_test.web.model.Role;
-import com.andygomez.unic_test.web.model.UserInput;
+import com.andygomez.unic_test.flow.web.model.Role;
+import com.andygomez.unic_test.flow.web.model.UserInput;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

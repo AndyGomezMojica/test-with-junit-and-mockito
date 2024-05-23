@@ -1,9 +1,9 @@
-package com.andygomez.unic_test.web;
+package com.andygomez.unic_test.flow.web;
 
-import com.andygomez.unic_test.application.UserUseCase;
+import com.andygomez.unic_test.flow.application.UserUseCase;
 import com.andygomez.unic_test.utils.exceptions.ValidationException;
-import com.andygomez.unic_test.web.model.UserInput;
-import com.andygomez.unic_test.web.model.UserResponse;
+import com.andygomez.unic_test.flow.web.model.UserInput;
+import com.andygomez.unic_test.flow.web.model.UserResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

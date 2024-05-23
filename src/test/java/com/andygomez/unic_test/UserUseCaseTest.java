@@ -1,11 +1,11 @@
 package com.andygomez.unic_test;
 
-import com.andygomez.unic_test.application.UserUseCase;
+import com.andygomez.unic_test.flow.application.UserUseCase;
 import com.andygomez.unic_test.utils.exceptions.ValidationException;
-import com.andygomez.unic_test.model.User;
-import com.andygomez.unic_test.model.repository.UserRepository;
-import com.andygomez.unic_test.web.model.UserInput;
-import com.andygomez.unic_test.web.model.UserResponse;
+import com.andygomez.unic_test.flow.model.User;
+import com.andygomez.unic_test.flow.model.repository.UserRepository;
+import com.andygomez.unic_test.flow.web.model.UserInput;
+import com.andygomez.unic_test.flow.web.model.UserResponse;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
